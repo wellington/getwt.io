@@ -1,7 +1,7 @@
 +++
 date = "2015-05-23T08:28:04-05:00"
 draft = false
-title = "install"
+title = "Installation Instructions"
 
 +++
 
