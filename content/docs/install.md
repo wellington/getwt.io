@@ -1,6 +1,6 @@
 +++
 date = "2015-05-23T08:28:04-05:00"
-draft = true
+draft = false
 title = "install"
 
 +++

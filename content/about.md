@@ -6,4 +6,4 @@ theme = "landing-page-hugo"
 
 +++
 
-This is the about page
+This is the index page

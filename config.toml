@@ -4,8 +4,10 @@ title = "Wellington - Open Source CSS Preprocesser with Spriting!"
 theme = "herring-cove"
 
 [params]
-ProfilePicture = "images/profile.jpg"
+ProfilePicture = "/images/profile.png"
+enableLandingPage = true
+AuthorName = "Drew Wells"
 
-[links]
-home = "/"
-blog = "/blog/"
+[params.links]
+Docs = "/docs/"
+Examples = "/examples/"

@@ -49,6 +49,7 @@
 					<img src="{{ .Site.Params.ProfilePicture }}" />
           <li class="sidebar-brand"><a href="{{ .Site.BaseURL }}/"><h1 class="brand">{{ .Site.Title }}</h1></a><h3>{{ .Site.Params.Description }}</h3></li>
           <hr />
+          <script>{{ .Site }}</script>
 					{{range $key, $element := .Site.Params.links}}
 						<li><a href="{{ $baseUrl }}{{ $element }}">{{title $key }} </a></li>
 					{{ end }}
