@@ -1,0 +1,11 @@
+baseurl = "http://getwt.io/"
+languageCode = "en-us"
+title = "Wellington - Open Source CSS Preprocesser with Spriting!"
+theme = "herring-cove"
+
+[params]
+ProfilePicture = "images/profile.jpg"
+
+[links]
+home = "/"
+blog = "/blog/"
