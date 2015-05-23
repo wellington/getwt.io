@@ -1,13 +1,15 @@
 baseurl = "http://getwt.io/"
 languageCode = "en-us"
-title = "Wellington - Open Source CSS Preprocesser with Spriting!"
+title = "Wellington"
 theme = "herring-cove"
 
 [params]
+Description = "Open Source CSS Preprocesser with Spriting!"
 ProfilePicture = "/images/profile.png"
 enableLandingPage = true
-AuthorName = "Drew Wells"
+AuthorName = "Wellington"
+landingPageRedirectUrl = "/about/"
 
 [params.links]
-Docs = "/docs/"
+Install = "/docs/install"
 Examples = "/examples/"
