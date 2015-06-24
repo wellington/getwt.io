@@ -13,11 +13,11 @@ title = "Installation Instructions"
 
 #### Building from Source (any OS)
 
-Prerequisites `go`, `autotools`, `libtool`
+Prerequisites `go`, `gcc`
 
     go get github.com/wellington/wellington
 
-Go get will fail if libsass isn't available
+If `go get` fails, try the makefile preqrequisites `autotools`, `libtool`
 
     cd $(GOPATH)/src/github.com/wellington/wellington
     make
