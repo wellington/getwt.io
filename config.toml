@@ -9,6 +9,7 @@ ProfilePicture = "/images/profile.png"
 enableLandingPage = true
 AuthorName = "Wellington"
 landingPageRedirectUrl = "/about/"
+GithubURL = "https://github.com/wellington/wellington"
 
 [params.links]
 Install = "/docs/install"
