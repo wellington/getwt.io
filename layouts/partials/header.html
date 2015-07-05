@@ -32,9 +32,8 @@
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
-					{{ $baseUrl:= .Site.BaseURL }}
 					{{range $key, $element := .Site.Params.links}}
-					<li><a href="{{ $baseUrl}}{{ $element }}">{{title $key }} </a></li>
+					<li><a href="{{ .Site.BaseURL}}{{ $element }}">{{title $key }} </a></li>
 					{{ end }}
           </ul>
         </div><!--/.nav-collapse -->
@@ -54,7 +53,7 @@
           </li>
           <hr />
 		  {{range $key, $element := .Site.Params.links}}
-		  <li><a href="{{ $baseUrl }}{{ $element }}">{{title $key }} </a></li>
+		  <li><a href="{{ .Site.BaseURL }}{{ $element }}">{{title $key }} </a></li>
 		  {{ end }}
           <hr />
           <div id="social-wrapper">

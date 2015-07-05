@@ -6,11 +6,10 @@ theme = "herring-cove"
 [params]
 Description = "Open Source CSS Preprocesser with Spriting!"
 ProfilePicture = "/images/profile.png"
-enableLandingPage = true
+enableLandingPage = false
 AuthorName = "Wellington"
-landingPageRedirectUrl = "/about/"
+landingPageRedirectUrl = "/install"
 GithubURL = "https://github.com/wellington/wellington"
 
 [params.links]
 Install = "/docs/install"
-Examples = "/examples/"

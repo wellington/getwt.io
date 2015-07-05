@@ -1,5 +1,31 @@
-<div class="text-center">
-  <div class="lead h3">{{ .Site.Params.Description }}</div>
-  <a href="/docs/install" class="btn btn-default">Install Wellington</a>
+<div class="row">
+  <div class="col-md-4">
+	  <div class="circular">
+        <p>
+	      <img src="{{ .Site.Params.ProfilePicture }}" alt="" />
+        </p>
+      </div>
+  </div>
+  <div class="col-md-8 landing-description">
+    <div class="">
+      <div class="lead h3">{{ .Site.Params.Description }}</div>
+      <p class="button-frame">
+        <a href="/docs/install" class="btn btn-default">Install Wellington</a>
+      </p>
+      <p class="description">
+        Wellington supports all Sass directives plus extensions to Sass
+        for spriting and inline images. For a list of available Sass
+        funtions, see the <a href="https://github.com/wellington/wellington#documentation">API Documentation</a>.
+      </p>
+    </div>
+  </div>
 </div>
-<a href="{{ .Site.Params.GithubURL }}"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/e7bbb0521b397edbd5fe43e7f760759336b5e05f/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f677265656e5f3030373230302e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_green_007200.png"></a>
+<p class="embed-title">Try this Live Demo</p>
+<p>
+  <a href="{{ .Site.Params.GithubURL }}"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/e7bbb0521b397edbd5fe43e7f760759336b5e05f/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f677265656e5f3030373230302e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_green_007200.png"></a>
+</p>
+
+<div class="embed-frame">
+  <p data-height="668" data-theme-id="0" data-slug-hash="YPpXoE" data-default-tab="result" data-user="drewwells" class='codepen'>See the Pen <a href='http://codepen.io/drewwells/pen/YPpXoE/'>Image Demo</a> by Drew Wells (<a href='http://codepen.io/drewwells'>@drewwells</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+<script async src="//assets.codepen.io/assets/embed/ei.js"></script>
+</div>
