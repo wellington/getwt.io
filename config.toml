@@ -1,16 +1,32 @@
 baseurl = "http://getwt.io/"
 languageCode = "en-us"
 title = "Wellington"
-theme = "herring-cove"
+theme = "freelancer"  
 
 [params]
+Name = "Wellington"
 Description = "Open Source CSS Preprocesser with Spriting!"
 ProfilePicture = "/images/profile.png"
+email = "admin@madewithdrew.com"
 enableLandingPage = true
 AuthorName = "Wellington"
 landingPageRedirectUrl = "/about/"
 GithubURL = "https://github.com/wellington/wellington"
 
+[params.navigation]
+brand = "WT WEB"
+
+
+[params.header]
+name = "Wellington"
+
 [params.links]
 Install = "/docs/install"
 Examples = "/examples/"
+
+[params.footer.social]
+title = "Connect"
+[[params.footer.social.networks]]
+icon = "fa-github"
+link = "https://github.com/wellington/wellington"
+
