@@ -13,3 +13,4 @@ GithubURL = "https://github.com/wellington/wellington"
 
 [params.links]
 Install = "/docs/install"
+Docs = "/docs"
