@@ -5,7 +5,10 @@ title = "Install"
 
 +++
 
-#### OS X
+Binaries for OS X, Linux and Windows are available on [Github](https://github.com/wellington/wellington/releases)
+
+
+Or can be installed via brew on OS X
 
     brew install wellington
     wt -v
@@ -15,7 +18,7 @@ title = "Install"
 
 Prerequisites `go`, `gcc`
 
-    go get github.com/wellington/wellington
+    go get github.com/wellington/wellington/wt
 
 If `go get` fails, try the makefile preqrequisites `autotools`, `libtool`
 
