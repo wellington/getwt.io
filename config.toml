@@ -1,16 +1,21 @@
 baseurl = "http://getwt.io/"
 languageCode = "en-us"
 title = "Wellington"
-theme = "herring-cove"
+theme = "github-project-landing-page"
 
 [params]
 Description = "Open Source CSS Preprocesser with Spriting!"
 ProfilePicture = "/images/profile.png"
 enableLandingPage = false
-AuthorName = "Wellington"
+AuthorName = "Drew"
 landingPageRedirectUrl = "/install"
 GithubURL = "https://github.com/wellington/wellington"
 
-[params.links]
+# gplp variables
+AuthorURL = "http://blog.madewithdrew.com"
+GithubOrg = "wellington"
+GithubRepo = "wellington"
+
+[params.Links]
 Install = "/docs/install"
 Docs = "/docs"
