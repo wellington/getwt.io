@@ -4,8 +4,9 @@ Description = "A very simple example of how to use wt."
 Tags = []
 draft = false
 date = "2015-07-22T23:45:36-05:00"
-title = "Getting Started"
-
+title = "Usage"
+weight = 2
+front = true
 +++
 
 Start by installing Bourbon. Install docs are [here](http://bourbon.io/). If you already have a working copy of Ruby, use the gem tool to install bourbon.

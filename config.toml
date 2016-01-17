@@ -4,7 +4,7 @@ title = "Wellington"
 theme = "github-project-landing-page"
 
 [params]
-Description = "Open Source CSS Preprocesser with Spriting!"
+Description = "is a project-focused tool to manage Sass and spriting"
 ProfilePicture = "/images/profile.png"
 enableLandingPage = false
 AuthorName = "Drew"

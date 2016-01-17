@@ -5,7 +5,6 @@ Tags = []
 draft = false
 date = "2015-07-23T00:12:42-05:00"
 title = "Large Projects"
-
 +++
 
 Wellington was created to solve problems using Sass in large projects. So you are in good company! By switching to Wellington, you should find that your project compiles significantly faster. Some benchmarks are provided on [github](https://github.com/wellington/wellington#speed-matters).
