@@ -5,6 +5,12 @@ The repo for the [getwt.io](http://getwt.io) website.
 * [Homebrew](http://brew.sh/)
 * [Hugo](https://gohugo.io/)
 
+## Install
+
+- clone repo
+- git submodule update --init
+
+
 ## Usage
 
 ### `make build`
