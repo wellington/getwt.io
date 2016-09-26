@@ -1,4 +1,4 @@
-baseurl = "http://getwt.io/"
+baseurl = "https://getwt.io/"
 languageCode = "en-us"
 title = "Wellington"
 theme = "github-project-landing-page"
