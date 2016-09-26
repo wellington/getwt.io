@@ -3,4 +3,4 @@
 	url = git@github.com:spf13/herring-cove.git
 [submodule "themes/github-project-landing-page"]
 	path = themes/github-project-landing-page
-	url = git@github.com:oarrabi/github-project-landing-page.git
+	url = git@github.com:drewwells/github-project-landing-page.git
